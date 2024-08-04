@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.MyApp12" parent="android:Theme.Material.Light.NoActionBar" >
+        <item name="colorTextDark">@color/primary</item>
+        <item name="colorBackgroundDark">@color/primary_dark</item>
+        <item name="colorMedium">@color/accent</item>
+        <item name="colorMediumDark">@color/light</item>
+        <item name="colorBackgroundLight">@color/background</item>
+        <item name="colorTextLight">@color/white</item>
+    </style>
+
+    <style name="Theme.Mono" parent="android:Theme.Material.Light.NoActionBar" >
+        <item name="colorTextDark">@color/primary1</item>
+        <item name="colorBackgroundDark">@color/primary_dark1</item>
+        <item name="colorMedium">@color/accent1</item>
+        <item name="colorMediumDark">@color/error1</item>
+        <item name="colorBackgroundLight">@color/light1</item>
+        <item name="colorTextLight">@color/light1_2</item>
+    </style>
+
+    <style name="Theme.Tri" parent="android:Theme.Material.Light.NoActionBar" >
+        <item name="colorTextDark">@color/primary3</item>
+        <item name="colorBackgroundDark">@color/primary_dark3</item>
+        <item name="colorMedium">@color/accent3</item>
+        <item name="colorMediumDark">@color/error3</item>
+        <item name="colorBackgroundLight">@color/light3</item>
+        <item name="colorTextLight">@color/light3_2</item>
+    </style>
+
+    <style name="Theme.Quad" parent="android:Theme.Material.Light.NoActionBar" >
+        <item name="colorTextDark">@color/primary4</item>
+        <item name="colorBackgroundDark">@color/primary_dark4</item>
+        <item name="colorMedium">@color/accent4</item>
+        <item name="colorMediumDark">@color/error4</item>
+        <item name="colorBackgroundLight">@color/light4</item>
+        <item name="colorTextLight">@color/light4_2</item>
+    </style>
+
+</resources>

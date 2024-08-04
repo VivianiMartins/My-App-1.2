@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">My App 1.2</string>
+    <string name="welcome">Bem vindo(a)!</string>
+    <string name="login">Login (nome ou e-mail):</string>
+    <string name="password">Digite a senha:</string>
+    <string name="enter">Entrar</string>
+    <string name="forgot">Esqueci senha</string>
+    <string name="description">Lorem ipsum dolor sit amet. Et nobis nostrum et omnis similique eum deserunt iste qui dolorum ipsa?</string>
+    <string name="password_confirm">Confirme a senha:</string>
+    <string name="img_alt">Lorem ipsum dolor sit amet.</string>
+    <string name="next">Próximo</string>
+    <string name="save">Salvar</string>
+    <string name="leave">sair</string>
+    <string name="theme">Temas</string>
+    <string name="change_theme">Escolha o tema</string>
+    <string name="mono">Monocromático</string>
+    <string name="quad">Quadrática</string>
+    <string name="tri">Triádica</string>
+</resources>

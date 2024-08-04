@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="?attr/colorBackgroundLight"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textWelcome"
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="95dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="96dp"
+        android:layout_marginBottom="32dp"
+        android:fontFamily="@font/roboto_light_italic"
+        android:text="@string/welcome"
+        android:textAlignment="center"
+        android:textColor="?attr/colorBackgroundDark"
+        android:textSize="26sp"
+        app:layout_constraintBottom_toTopOf="@+id/textPassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textPassword"
+        android:layout_width="220dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="95dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="96dp"
+        android:fontFamily="@font/roboto"
+        android:labelFor="@id/editTextNumberPassword"
+        android:text="@string/password"
+        android:textAlignment="center"
+        android:textColor="?attr/colorMedium"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/editTextNumberPassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textWelcome"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <EditText
+        android:id="@+id/editTextNumberPassword"
+        android:layout_width="255dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="78dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="78dp"
+        android:ems="10"
+        android:fontFamily="@font/roboto"
+        android:inputType="numberPassword"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textColor="?attr/colorMedium"
+        app:layout_constraintBottom_toTopOf="@+id/textPasswordConfirm"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textPassword" />
+
+    <TextView
+        android:id="@+id/textPasswordConfirm"
+        android:layout_width="220dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="95dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="96dp"
+        android:fontFamily="@font/roboto"
+        android:labelFor="@id/editTextNumberPasswordConfirm"
+        android:text="@string/password_confirm"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textColor="?attr/colorMedium"
+        app:layout_constraintBottom_toTopOf="@+id/editTextNumberPasswordConfirm"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextNumberPassword" />
+
+    <EditText
+        android:id="@+id/editTextNumberPasswordConfirm"
+        android:layout_width="255dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="78dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="78dp"
+        android:ems="10"
+        android:fontFamily="@font/roboto"
+        android:inputType="numberPassword"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textColor="?attr/colorMedium"
+        app:layout_constraintBottom_toTopOf="@+id/buttonSave"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textPasswordConfirm" />
+
+    <Button
+        android:id="@+id/buttonSave"
+        android:layout_width="175dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="118dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="118dp"
+        android:layout_marginBottom="119dp"
+        android:backgroundTint="?attr/colorBackgroundDark"
+        android:fontFamily="@font/roboto_bold"
+        android:text="@string/save"
+        android:textAlignment="center"
+        android:textColor="?attr/colorTextLight"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextNumberPasswordConfirm" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

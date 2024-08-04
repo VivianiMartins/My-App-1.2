@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="secondary_text_material_dark">#de000000</color>
+    <color name="text_medium">#8a000000</color>
+
+    <color name="primary">#FFBB86FC</color>
+    <color name="primary_dark">#FF6200EE</color>
+    <color name="accent">#FF3700B3</color>
+    <color name="error">#FF03DAC5</color>
+    <color name="background">#efefef</color>
+    <color name="light">#FF018786</color>
+
+
+    <color name="primary1">#12304B</color>
+    <color name="primary_dark1">#041D33</color>
+    <color name="accent1">#5C80A0</color>
+    <color name="error1">#305575</color>
+    <color name="light1">#DAE8F4</color>
+    <color name="light1_2">#96B2CA</color>
+
+    <color name="primary3">#243380</color>
+    <color name="primary_dark3">#677CE6</color>
+    <color name="accent3">#7CA858</color>
+    <color name="error3">#7A4C3C</color>
+    <color name="light3">#D7F5BF</color>
+    <color name="light3_2">#DFD3CF</color>
+
+    <color name="primary4">#A68DF2</color>
+    <color name="primary_dark4">#746896</color>
+    <color name="accent4">#B6786A</color>
+    <color name="error4">#F2B9AC</color>
+    <color name="light4">#B5EBD7</color>
+    <color name="light4_2">#EDE9BE</color>
+
+
+
+</resources>
