@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CustomTheme">
+        <attr name="colorTextDark" format="color"/>
+        <attr name="colorBackgroundDark" format="color"/>
+        <attr name="colorMedium" format="color"/>
+        <attr name="colorMediumDark" format="color"/>
+        <attr name="colorBackgroundLight" format="color"/>
+        <attr name="colorTextLight" format="color"/>
+    </declare-styleable>
+</resources>
