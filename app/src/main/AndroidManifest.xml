@@ -25,7 +25,7 @@
         <activity android:name=".BemVindoActivity" android:parentActivityName=".MainActivity"  />
         <activity android:name=".PasswordRecoverActivity" android:parentActivityName=".MainActivity"/>
         <activity android:name=".View2Activity" android:parentActivityName=".BemVindoActivity"/>
-        <activity android:name=".View3Activity" android:parentActivityName=".MainActivity"/>
+        <activity android:name=".View3Activity" />
         <activity android:name=".BaseActivity" />
         <meta-data
             android:name="preloaded_fonts"
